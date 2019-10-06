@@ -1,0 +1,58 @@
+.title_text {
+    font-family: 'Lobster' !important;
+    font-size: "120px" !important;
+    text-align: center;
+}
+
+textarea {
+    tab-size: 4;
+}
+
+.text_blue {
+    color: #1E90FF;
+}
+
+.text_perple {
+    color: #D0A9F5;
+}
+
+.text_red {
+    color: #FF1493;
+}
+
+.font_mono {
+    font-family: 'Noto Sans Mono CJK JP Regular', 'MS Gothic', 'Osaka', Consolas, 'Courier New', Courier, Monaco, monospace;
+}
+
+.bg_pink {
+    background-color: #FFE8EC;
+}
+
+.bg_pink_keyword {
+    background-color: rgb(247, 192, 201);
+}
+
+.bg_aqua {
+    background-color: #CEECF5;
+}
+
+.bg_aqua_keyword {
+    background-color: rgb(20, 190, 241);
+}
+
+.bg_perple {
+    background-color: #D0A9F5;
+}
+
+
+.sticky {
+    position: -webkit-sticky;
+    /* Safari */
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+}
+
+.z_index_txtBody {
+    z-index: 1;
+}
