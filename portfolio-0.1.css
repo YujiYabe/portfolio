@@ -1,51 +1,50 @@
 .title_text {
-    font-family: 'Lobster Two' !important;
-    font-size: "120px" !important;
-    text-align: center;
+  font-family: "Lobster Two" !important;
+  font-size: "120px" !important;
+  text-align: center;
 }
 
 textarea {
-    tab-size: 4;
+  tab-size: 4;
 }
 
 .text_blue {
-    color: #008080;
+  color: #008080;
 }
 
-
 .font_mono {
-    font-family: 'Noto Sans Mono CJK JP Regular', 'MS Gothic', 'Osaka', Consolas, 'Courier New', Courier, Monaco, monospace;
+  font-family: "Noto Sans Mono CJK JP Regular", "MS Gothic", "Osaka", Consolas,
+    "Courier New", Courier, Monaco, monospace;
 }
 
 .bg_pink {
-    background-color: #FFE8EC;
+  background-color: #ffe8ec;
 }
 
 .bg_pink_keyword {
-    background-color: rgb(247, 192, 201);
+  background-color: rgb(247, 192, 201);
 }
 
 .bg_aqua {
-    background-color: #CEECF5;
+  background-color: #ceecf5;
 }
 
 .bg_aqua_keyword {
-    background-color: rgb(20, 190, 241);
+  background-color: rgb(20, 190, 241);
 }
 
 .bg_perple {
-    background-color: #D0A9F5;
+  background-color: #d0a9f5;
 }
 
-
 .sticky {
-    position: -webkit-sticky;
-    /* Safari */
-    position: sticky;
-    top: 0;
-    z-index: 1000;
+  position: -webkit-sticky;
+  /* Safari */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
 }
 
 .z_index_txtBody {
-    z-index: 1;
+  z-index: 1;
 }
