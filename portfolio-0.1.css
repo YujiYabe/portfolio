@@ -8,9 +8,15 @@ textarea {
   tab-size: 4;
 }
 
-.text_blue {
-  color: #008080;
+.text_darkcyan {
+  color:darkcyan;
 }
+
+.work {
+  background-color:darkcyan;
+  color: white
+}
+
 
 .font_mono {
   font-family: "Noto Sans Mono CJK JP Regular", "MS Gothic", "Osaka", Consolas,
