@@ -193,7 +193,19 @@
 	<script>
 		const app1 = new Vue({
 			el: '#app',
-			data: {},
+			data: {
+				infoList: {
+					name: "",
+					explication: "",
+					image: "",
+					sourceUrl: "",
+					sourceTitle: "",
+					optin: "",
+
+				}
+
+
+			},
 			mounted() {
 				document.getElementById("app").style.display = "";
 			},
