@@ -60,7 +60,7 @@
 								</v-card-text>
 							</v-card>
 
-							<v-dialog v-model="dialog" scrollable>
+							<v-dialog v-model="isShowDialog" scrollable>
 								<v-card>
 									<v-img id="imageDialog" position="top" :src="dialogImage">
 									</v-img>
@@ -83,9 +83,7 @@
 		const app = new Vue({
 			el: '#app',
 			data: {
-				title: "click to open dialog",
-				content: "サンプルです。元はtitleとcontentはpropsで定義して上位から値を渡す仕様でしたが、CodePen用に簡略化してあります。ダイアログの外をクリックすると、ダイアログが閉じます。",
-				dialog: false,
+				isShowDialog: false,
 				dialogImage: "",
 
 				productList: [
@@ -97,7 +95,6 @@
 						sourceTitle: "github",
 						optionUrl: "https://yujiyabe.github.io/compareplace/",
 						optionTitle: "動作ページ",
-						dialog: false,
 					},
 					{
 						name: "cameraTranslate",
@@ -171,10 +168,8 @@
 
 			methods: {
 				openDialog: function (index) {
-					this.dialog = true
+					this.isShowDialog = true
 					this.dialogImage = this["productList"][index]["image"]
-					// let imageElement = document.getElementById("imageDialog")
-					// imageElement.src = this["productList"][index]["image"]
 				},
 			}
 		}
